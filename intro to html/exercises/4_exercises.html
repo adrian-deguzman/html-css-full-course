@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      button {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+      }
+      a {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      .stretch {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 4px 10px;
+        transition: padding 1s;
+        cursor: pointer;
+      }
+
+      .stretch:hover {
+        padding: 10px 30px;
+      }
+
+      .shadow {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 4px 10px;
+      }
+
+      .shadow:active {
+        margin: -2px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+      }
+
+      .numbered-buttons {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 4px 10px;
+        margin: 0 4px;
+        cursor: pointer;
+        transition:
+          padding 0.15s,
+          margin 0.15s;
+      }
+
+      .numbered-buttons:hover {
+        padding: 4px 14px;
+        margin: 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <p>4h. Pagination</p>
+    <button>Back</button>
+    <a href="">1</a>
+    <a href="">2</a>
+    <a href="">3</a>
+    <a href="">4</a>
+    <a href="">5</a>
+    <button>Next</button>
+    <br /><br />
+
+    <p>4i. Stretch</p>
+    <button class="stretch">Stretch</button>
+    <br /><br />
+
+    <p>4j. 3D Click</p>
+    <button class="shadow">Shadow</button>
+    <br /><br />
+
+    <p>4k. Margin and padding together</p>
+    <button class="numbered-buttons">One</button>
+    <button class="numbered-buttons">Two</button>
+    <button class="numbered-buttons">Three</button>
+    <br /><br />
+  </body>
+</html>

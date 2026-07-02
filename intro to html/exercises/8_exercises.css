@@ -1,0 +1,56 @@
+.textboxes {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.survey-text {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.google-logo {
+  width: 200px;
+  margin: 0px 200px;
+}
+
+.search-bar {
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin: 0 20px;
+  display: block;
+  width: 500px;
+}
+
+.sign-up-textbox {
+  padding: 8px 12px;
+  border-color: rgb(199, 199, 199);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  margin: 4px 0;
+}
+
+.name-input {
+  width: 100px;
+}
+
+.email {
+  display: block;
+  width: 230px;
+  margin-bottom: 8px;
+}
+
+.sign-up {
+  display: block;
+  background-color: rgb(0, 149, 255);
+  padding: 10px 10px;
+  width: 255px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin: 4px 0;
+}

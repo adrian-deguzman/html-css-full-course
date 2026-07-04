@@ -1,43 +1,42 @@
-.user-card {
-  font-family: Roboto;
+.user-list {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 300px;
-  padding: 15px;
+  padding: 10px;
 }
 
-.user-card__profile {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 8px;
+.user-card {
+  font-family: "Roboto", sans-serif;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-card__profile-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .user-card__profile-picture {
   width: 50px;
-  aspect-ratio: 1 / 1;
+  height: 50px;
   object-fit: cover;
-  border-radius: 25px;
-}
-
-.user-card__details {
-  display: inline-block;
-  vertical-align: middle;
-  width: 150px;
+  border-radius: 50%;
 }
 
 .user-card__name {
   font-size: 16px;
   font-weight: bold;
+  margin: 0;
 }
 
 .user-card__bio,
 .user-card__badge {
   color: grey;
-  margin-top: 3px;
-}
-
-.user-card__action {
-  display: inline-block; 
-  vertical-align: middle;
+  margin: 3px 0 0 0;
 }
 
 .user-card__follow-button {
@@ -45,6 +44,7 @@
   color: white;
   border: none;
   border-radius: 4px;
-  padding: 8px 10px;
+  padding: 8px 14px;
   font-weight: bold;
+  cursor: pointer;
 }

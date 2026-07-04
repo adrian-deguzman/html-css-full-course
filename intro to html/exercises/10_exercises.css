@@ -1,0 +1,50 @@
+.user-card {
+  font-family: Roboto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 15px;
+}
+
+.user-card__profile {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.user-card__profile-picture {
+  width: 50px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.user-card__details {
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+}
+
+.user-card__name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.user-card__bio,
+.user-card__badge {
+  color: grey;
+  margin-top: 3px;
+}
+
+.user-card__action {
+  display: inline-block; 
+  vertical-align: middle;
+}
+
+.user-card__follow-button {
+  background-color: rgb(18, 156, 255);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 10px;
+  font-weight: bold;
+}

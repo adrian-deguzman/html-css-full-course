@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12 Flexbox Exercises</title>
+    <link rel="stylesheet" href="12_exercises.css">
+  </head>
+  <body>
+    <p>12a. Create a flexbox with 2 items. Widths = 200px | 75px</p>
+    <div class="exercise-12a">
+      <div style="background-color: lightblue; width: 200px">200px</div>
+      <div style="background-color: lightpink; width: 75px">75px</div>
+    </div>
+
+    <p>12b. A flexbox with 3 items. Widths = 50px | remaining space | 75px</p>
+    <div class="exercise-12b">
+      <div style="background-color: lightblue; width: 50px">item1</div>
+      <div style="background-color: lightpink; flex: 1">item2</div>
+      <div style="background-color: lightblue; width: 75px">item3</div>
+    </div>
+
+    <p>12c. A flexbox with 4 items, spread evenly across the page</p>
+    <div class="exercise-12c">
+      <div style="background-color: lightblue; display: inline">item1</div>
+      <div style="background-color: lightpink; display: inline">item2</div>
+      <div style="background-color: lightblue; display: inline">item1</div>
+      <div style="background-color: lightpink; display: inline">item2</div>
+    </div>
+
+    <p>12d. Create a flexbox below with height = 50px and a gray border</p>
+    <div class="exercise-12d">
+      <div style="background-color: lightpink; display: inline">item1</div>
+      <div style="background-color: lightpink; display: inline">item2</div>
+    </div>
+    
+    <hr><br>
+
+    <p><strong>CHALLENGE EXERCISES</strong></p>
+    <p>12e. Create this design</p>
+    <div class="exercise-12e">
+      <div class="page">
+        <p>Home</p>
+        <p class="count">14</p>
+      </div>
+      <div class="page">
+        <p>Notifications</p>
+        <p class="count">3</p>
+      </div>
+      <div class="page">
+        <p>Messages</p>
+        <p class="count">5</p>
+      </div>
+    </div>
+
+    <p>12g. Create this design</p>
+    <div class="user-card">
+      <div class="user-card__profile-group">
+        <img src="images/cute-cat.jpg" alt="" class="user-card__profile-picture">
+      </div>
+      <div class="user-card__user-details">
+        <div class="user-card__user-name">
+          oliver
+        </div>
+        <div class="user-card__user-tag">
+          the car
+        </div>
+        <div class="user-card__user-badge">
+          Popular
+        </div>
+      </div>
+      <div class="user-card__actions">
+        <button class="user-card__follow">
+          Follow
+        </button>
+      </div>
+
+    </div>
+  </body>
+</html>

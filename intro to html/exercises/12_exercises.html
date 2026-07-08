@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>12 Flexbox Exercises</title>
-    <link rel="stylesheet" href="12_exercises.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="12_exercises.css" />
   </head>
   <body>
     <p>12a. Create a flexbox with 2 items. Widths = 200px | 75px</p>
@@ -33,48 +39,82 @@
       <div style="background-color: lightpink; display: inline">item1</div>
       <div style="background-color: lightpink; display: inline">item2</div>
     </div>
-    
-    <hr><br>
+
+    <hr />
+    <br />
 
     <p><strong>CHALLENGE EXERCISES</strong></p>
-    <p>12e. Create this design</p>
-    <div class="exercise-12e">
-      <div class="page">
-        <p>Home</p>
-        <p class="count">14</p>
-      </div>
-      <div class="page">
-        <p>Notifications</p>
-        <p class="count">3</p>
-      </div>
-      <div class="page">
-        <p>Messages</p>
-        <p class="count">5</p>
-      </div>
-    </div>
-
-    <p>12g. Create this design</p>
-    <div class="user-card">
-      <div class="user-card__profile-group">
-        <img src="images/cute-cat.jpg" alt="" class="user-card__profile-picture">
-      </div>
-      <div class="user-card__user-details">
-        <div class="user-card__user-name">
-          oliver
+    <div class="user-list">
+      <p>12e. Create this design</p>
+      <div class="exercise-12e">
+        <div class="page">
+          <p>Home</p>
+          <p class="count">14</p>
         </div>
-        <div class="user-card__user-tag">
-          the car
+        <div class="page">
+          <p>Notifications</p>
+          <p class="count">3</p>
         </div>
-        <div class="user-card__user-badge">
-          Popular
+        <div class="page">
+          <p>Messages</p>
+          <p class="count">5</p>
         </div>
-      </div>
-      <div class="user-card__actions">
-        <button class="user-card__follow">
-          Follow
-        </button>
       </div>
 
+      <p>12g. Create this design</p>
+      <div class="user-card">
+        <div class="user-card__profile-group">
+          <img
+            src="images/cute-cat.jpg"
+            alt="Oliver the orange cat"
+            class="user-card__profile-picture"
+          />
+          <div class="user-card__user-details">
+            <h3 class="user-card__user-name">oliver</h3>
+            <p class="user-card__user-tag">the cat</p>
+            <span class="user-card__user-badge">Popular</span>
+          </div>
+        </div>
+        <div class="user-card__action-group">
+          <button class="user-card__action-follow" type="button">Follow</button>
+        </div>
+      </div>
+
+      <div class="user-card">
+        <div class="user-card__profile-group">
+          <img
+            src="images/cute-cat.jpg"
+            alt="Oliver the orange cat"
+            class="user-card__profile-picture"
+          />
+          <div class="user-card__user-details">
+            <h3 class="user-card__user-name">oliver</h3>
+            <p class="user-card__user-tag">the cat</p>
+            <span class="user-card__user-badge">Popular</span>
+          </div>
+        </div>
+        <div class="user-card__action-group">
+          <button class="user-card__action-follow" type="button">Follow</button>
+        </div>
+      </div>
+
+      <div class="user-card">
+        <div class="user-card__profile-group">
+          <img
+            src="images/cute-cat.jpg"
+            alt="Oliver the orange cat"
+            class="user-card__profile-picture"
+          />
+          <div class="user-card__user-details">
+            <h3 class="user-card__user-name">oliver</h3>
+            <p class="user-card__user-tag">the cat</p>
+            <span class="user-card__user-badge">Popular</span>
+          </div>
+        </div>
+        <div class="user-card__action-group">
+          <button class="user-card__action-follow" type="button">Follow</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

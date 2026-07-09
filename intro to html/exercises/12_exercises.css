@@ -126,4 +126,55 @@ h3 {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
+  margin-bottom: 30px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(115, 84, 173);
+  align-items: stretch;
+  height: fit-content;
+  padding: 10px 10px;
+  gap: 15px;
+}
+
+.nav-bar__home {
+  font-weight: bold;
+  background-color: rgba(115, 84, 173);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-bar__search-bar {
+  flex: 1;
+  border: none;
+  width: 1 fr;
+  border-radius: 100px;
+  padding: 6px 10px;
+  font-size: 10px;
+}
+
+.nav-bar__download {
+  background-color: rgba(115, 84, 173);
+  color: white;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .nav-bar {
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+  }
+
+  .nav-bar__search-bar {
+    max-width: 400px;
+    flex: 1;
+  }
 }

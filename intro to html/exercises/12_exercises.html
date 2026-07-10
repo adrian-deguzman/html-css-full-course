@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12 Flexbox Exercises</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="12_exercises.css" />
+  </head>
+  <body>
+    <p>12a. Create a flexbox with 2 items. Widths = 200px | 75px</p>
+    <div class="exercise-12a">
+      <div style="background-color: lightblue; width: 200px">200px</div>
+      <div style="background-color: lightpink; width: 75px">75px</div>
+    </div>
+
+    <p>12b. A flexbox with 3 items. Widths = 50px | remaining space | 75px</p>
+    <div class="exercise-12b">
+      <div style="background-color: lightblue; width: 50px">item1</div>
+      <div style="background-color: lightpink; flex: 1">item2</div>
+      <div style="background-color: lightblue; width: 75px">item3</div>
+    </div>
+
+    <p>12c. A flexbox with 4 items, spread evenly across the page</p>
+    <div class="exercise-12c">
+      <div style="background-color: lightblue; display: inline">item1</div>
+      <div style="background-color: lightpink; display: inline">item2</div>
+      <div style="background-color: lightblue; display: inline">item1</div>
+      <div style="background-color: lightpink; display: inline">item2</div>
+    </div>
+
+    <p>12d. Create a flexbox below with height = 50px and a gray border</p>
+    <div class="exercise-12d">
+      <div style="background-color: lightpink; display: inline">item1</div>
+      <div style="background-color: lightpink; display: inline">item2</div>
+    </div>
+
+    <hr />
+    <br />
+
+    <p><strong>CHALLENGE EXERCISES</strong></p>
+    <div class="user-list">
+      <p>12e. Create this design</p>
+      <div class="exercise-12e">
+        <div class="page">
+          <p>Home</p>
+          <p class="count">14</p>
+        </div>
+        <div class="page">
+          <p>Notifications</p>
+          <p class="count">3</p>
+        </div>
+        <div class="page">
+          <p>Messages</p>
+          <p class="count">5</p>
+        </div>
+      </div>
+
+      <p>12g. Create this design</p>
+      <div class="user-card">
+        <div class="user-card__profile-group">
+          <img
+            src="images/cute-cat.jpg"
+            alt="Oliver the orange cat"
+            class="user-card__profile-picture"
+          />
+          <div class="user-card__user-details">
+            <h3 class="user-card__user-name">oliver</h3>
+            <p class="user-card__user-tag">the cat</p>
+            <span class="user-card__user-badge">Popular</span>
+          </div>
+        </div>
+        <div class="user-card__action-group">
+          <button class="user-card__action-follow" type="button">Follow</button>
+        </div>
+      </div>
+
+      <div class="user-card">
+        <div class="user-card__profile-group">
+          <img
+            src="images/cute-cat.jpg"
+            alt="Oliver the orange cat"
+            class="user-card__profile-picture"
+          />
+          <div class="user-card__user-details">
+            <h3 class="user-card__user-name">oliver</h3>
+            <p class="user-card__user-tag">the cat</p>
+            <span class="user-card__user-badge">Popular</span>
+          </div>
+        </div>
+        <div class="user-card__action-group">
+          <button class="user-card__action-follow" type="button">Follow</button>
+        </div>
+      </div>
+
+      <div class="user-card">
+        <div class="user-card__profile-group">
+          <img
+            src="images/cute-cat.jpg"
+            alt="Oliver the orange cat"
+            class="user-card__profile-picture"
+          />
+          <div class="user-card__user-details">
+            <h3 class="user-card__user-name">oliver</h3>
+            <p class="user-card__user-tag">the cat</p>
+            <span class="user-card__user-badge">Popular</span>
+          </div>
+        </div>
+        <div class="user-card__action-group">
+          <button class="user-card__action-follow" type="button">Follow</button>
+        </div>
+      </div>
+    </div>
+
+    <p>12f. Create this design</p>
+    <nav class="nav-bar">
+      <button class="nav-bar__home">Home</button>
+      <input
+        type="text"
+        name="search"
+        id=""
+        class="nav-bar__search-bar"
+        placeholder="Search"
+      />
+      <button class="nav-bar__download">Download</button>
+    </nav>
+  </body>
+</html>

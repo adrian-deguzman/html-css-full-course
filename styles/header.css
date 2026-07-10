@@ -45,7 +45,7 @@
   border-color: rgba(211, 211, 211);
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
-  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05)
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
 }
 
 .search-bar::placeholder {

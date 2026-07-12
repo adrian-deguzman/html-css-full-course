@@ -1,0 +1,53 @@
+name: Website CI
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+
+    paths:
+      - "**/*.html"
+      - "**/*.css"
+      - ".github/workflows/**"
+
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "**/*.html"
+      - "**/*.css"
+      - ".github/workflows/**"
+
+permissions:
+  contents: read
+
+jobs:
+  quality-check:
+    name: HTML and CSS Validation
+
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Validation Tools
+        run: | 
+          npm install -g \
+            htmlhint \
+            stylelint \
+            stylelint-config-standard
+
+      - name: Validate HTML Files
+        run: htmlhint "**/*.html"
+
+      - name: Validate CSS Files
+        run: stylelint "**/*.css"

@@ -32,6 +32,7 @@
   border: 1px solid black;
   display: flex;
   flex-direction: row;
+  margin-bottom: 30px;
 }
 
 .exercise-13b__col1 {
@@ -56,4 +57,78 @@
 .exercise-13b__col2__row2__col2 {
   color: white;
   background-color: black;
+}
+
+span {
+  margin: 0;
+  padding: 0;
+}
+
+/* GMAIL STYLES */
+.gmail-inbox {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  font-family: Google Sans;
+  padding: 4px 8px 20px 8px;
+  border-radius: 4px;
+}
+
+.gmail-inbox__heading {
+  font-size: 10px;
+  color: gray;
+  margin-bottom: 8px;
+}
+
+.gmail-inbox__email-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.gmail-inbox__email {
+  display: flex;
+  column-gap: 6px;
+}
+
+.gmail-inbox__email__sender {
+  display: flex;
+  align-items: center;
+}
+
+.gmail-inbox__email__sender-picture {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+}
+
+.gmail-inbox__email__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.gmail-inbox__email__sender-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gmail-inbox__email__sender-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.gmail-inbox__email__time {
+  color: gray;
+  font-size: 12px;
+}
+
+.gmail-inbox__email__content-subject {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.gmail-inbox__email__content-preview {
+  font-size: 14px;
+  color: gray;
 }

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Practice</title>
+    <style>
+      body {
+        height: 3000px;
+        padding-top: 60px;
+        padding-left: 80px;
+      }
+
+      .header {
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 50px;
+      }
+
+      .sidebar {
+        background-color: lightgreen;
+        position: fixed;
+        top: 50px;
+        left: 0px;
+        bottom: 0px;
+        width: 72px;
+      }
+
+      .div-1 {
+        background-color: lightblue;
+        height: 200px;
+        width: 200px;
+        position: static;
+      }
+
+      .div-2 {
+        background-color: lightpink;
+        height: 200px;
+        width: 200px;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">sidebar</div>
+    <div class="header">header</div>
+    <div class="div-1">div 1</div>
+    <div class="div-2">div 2</div>
+  </body>
+</html>
